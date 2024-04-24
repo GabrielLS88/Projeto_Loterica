@@ -14,16 +14,108 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
+#tituloLadoLogin{
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.divTitulo{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 5rem 0rem 2rem; 
+}
 .boxLogin{
   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+#tituloBoxLogin{
+  width: 100%;
+  height: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inputSing{
+  width: 50%;
+  height: auto;
+  padding: 0.5rem;
+  border: 0;
+  border-bottom: 0.1rem solid black;
+  margin: 0.6rem;
+  outline: none;
+}
+.divInputPassword{
+  width: 50%;
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.inputSingPassoword{
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  border: 0;
+  border-bottom: 0.1rem solid black;
+  margin: 0.6rem 0rem;
+  outline: none;
+  position: relative;
+}
+
+#btnVizualizarPassword{
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  margin: 0rem 0rem 0rem 0.5rem;
+  padding: 0rem 0.4rem;
+  font-size: 1.5rem;
+}
+.btnEntrar{
+  width: 50%;
+  height: auto;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.blocoLinks{
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#linksBoxLoguin1{
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: start;
+  color: blue;
+}
+
+#linksBoxLoguin2{
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: end;
+  color: blue;
 }
 
 
