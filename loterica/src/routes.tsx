@@ -1,6 +1,6 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import SingIn from "./SingIn/App";
-import SingUp from "./SingUp/App";
+import {Routes, Route, Navigate} from "react-router-dom";
+import SingIn from "./SingIn/SingIn";
+import SingUp from "./SingUp/SingUp";
 import React, { useState, useEffect } from "react";
 
 
